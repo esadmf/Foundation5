@@ -1,0 +1,69 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'grunt-config-uglify',
+1 verbose cli   '--save-dev' ]
+2 info using npm@1.4.3
+3 info using node@v0.10.26
+4 warn package.json foundation-libsass-template@0.0.1 No repository field.
+5 verbose readDependencies using package.json deps
+6 verbose cache add [ 'grunt-config-uglify', null ]
+7 verbose cache add name=undefined spec="grunt-config-uglify" args=["grunt-config-uglify",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: 'grunt-config-uglify',
+8 verbose parsed url   path: 'grunt-config-uglify',
+8 verbose parsed url   href: 'grunt-config-uglify' }
+9 silly lockFile 84257c59-grunt-config-uglify grunt-config-uglify
+10 verbose lock grunt-config-uglify /Users/davidnewcomb/.npm/84257c59-grunt-config-uglify.lock
+11 silly lockFile 84257c59-grunt-config-uglify grunt-config-uglify
+12 silly lockFile 84257c59-grunt-config-uglify grunt-config-uglify
+13 verbose addNamed [ 'grunt-config-uglify', '' ]
+14 verbose addNamed [ null, '*' ]
+15 silly lockFile 557bcf65-grunt-config-uglify grunt-config-uglify@
+16 verbose lock grunt-config-uglify@ /Users/davidnewcomb/.npm/557bcf65-grunt-config-uglify.lock
+17 silly addNameRange { name: 'grunt-config-uglify', range: '*', hasData: false }
+18 verbose url raw grunt-config-uglify
+19 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-config-uglify' ]
+20 verbose url resolved https://registry.npmjs.org/grunt-config-uglify
+21 info trying registry request attempt 1 at 13:32:35
+22 http GET https://registry.npmjs.org/grunt-config-uglify
+23 http 404 https://registry.npmjs.org/grunt-config-uglify
+24 silly registry.get cb [ 404,
+24 silly registry.get   { date: 'Mon, 10 Mar 2014 19:32:36 GMT',
+24 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B)',
+24 silly registry.get     'content-type': 'application/json',
+24 silly registry.get     via: '1.1 varnish',
+24 silly registry.get     'cache-control': 'max-age=0',
+24 silly registry.get     'content-length': '52',
+24 silly registry.get     'accept-ranges': 'bytes',
+24 silly registry.get     age: '0',
+24 silly registry.get     'x-served-by': 'cache-v42-ASH, cache-c100-CHI',
+24 silly registry.get     'x-cache': 'MISS, MISS',
+24 silly registry.get     'x-cache-hits': '0, 0',
+24 silly registry.get     'x-timer': 'S1394479956.100255489,VS0,VS-544,VE-453,VE110',
+24 silly registry.get     'keep-alive': 'timeout=10, max=50',
+24 silly registry.get     connection: 'Keep-Alive' } ]
+25 silly lockFile 557bcf65-grunt-config-uglify grunt-config-uglify@
+26 silly lockFile 557bcf65-grunt-config-uglify grunt-config-uglify@
+27 error 404 'grunt-config-uglify' is not in the npm registry.
+27 error 404 You should bug the author to publish it
+27 error 404 It was specified as a dependency of 'foundation-libsass-template'
+27 error 404
+27 error 404 Note that you can also install from a
+27 error 404 tarball, folder, or http url, or git url.
+28 error System Darwin 13.1.0
+29 error command "node" "/usr/local/bin/npm" "install" "grunt-config-uglify" "--save-dev"
+30 error cwd /Users/davidnewcomb/carson-foundation-5/carson
+31 error node -v v0.10.26
+32 error npm -v 1.4.3
+33 error code E404
+34 verbose exit [ 1, true ]
